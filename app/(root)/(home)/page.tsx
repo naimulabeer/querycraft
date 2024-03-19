@@ -1,4 +1,4 @@
-export default function Home() {
+const Home = () => {
   return (
     <div>
       <h1 className="h1-bold">Next.js 13 we&apos;re coming</h1>
@@ -6,4 +6,6 @@ export default function Home() {
       <h3 className="h3-bold">Next.js 13 we&apos;re coming</h3>
     </div>
   );
-}
+};
+
+export default Home;
